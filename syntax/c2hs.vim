@@ -4,8 +4,8 @@ if exists('b:current_syntax')
     finish
 endif
 
-syntax keyword c2hsKw enum as
-syntax match c2hsCase "\v\{.*\}"
+syntax keyword c2hsKw enum as const
+syntax match c2hsCase "\v\{[a-zA-Z]*\}"
 
 highlight link c2hsKw Keyword
 highlight link c2hsCase Underlined
