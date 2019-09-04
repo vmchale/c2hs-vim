@@ -6,6 +6,7 @@ endif
 
 syntax match c2hsGet "->"
 syntax match c2hsSym "^"
+syntax match c2hsSym "*"
 syntax keyword c2hsKw enum as const pointer newtype nocode import type get set call unsafe pure fun
 syntax match c2hsCase "\v\{[a-zA-Z]*\}"
 
