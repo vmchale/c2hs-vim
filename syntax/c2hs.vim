@@ -6,11 +6,12 @@ endif
 
 syntax match c2hsGet "->"
 syntax match c2hsSym "^"
-syntax match c2hsSym "*"
+syntax match c2hsPtr "*"
 syntax keyword c2hsKw enum as const pointer newtype nocode import type get set call unsafe pure fun
 syntax match c2hsCase "\v\{[a-zA-Z]*\}"
 
 highlight link c2hsSym Special
+highlight link c2hsPtr Keyword
 highlight link c2hsGet Special
 highlight link c2hsKw Keyword
 highlight link c2hsCase Underlined
