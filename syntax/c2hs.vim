@@ -5,11 +5,11 @@ if exists('b:current_syntax')
 endif
 
 syntax match c2hsTy "\v`[a-zA-Z\(\) ]*'"
-syntax match c2hsGet "->"
 syntax match c2hsSym "\^"
 syntax match c2hsSym "*"
 syntax match c2hsSym "-"
 syntax match c2hsPtr "&"
+syntax match c2hsGet "->"
 syntax keyword c2hsKw enum as const pointer newtype nocode import type get set call unsafe pure fun with
 syntax match c2hsCase "\v\{[a-zA-Z]*\}"
 
