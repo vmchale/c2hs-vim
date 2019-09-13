@@ -11,7 +11,7 @@ syntax match c2hsSym "-"
 syntax match c2hsSym "%"
 syntax match c2hsPtr "&"
 syntax match c2hsGet "->"
-syntax keyword c2hsKw enum as const pointer newtype nocode import type get set call unsafe pure fun context nonGNU sizeof alignof define call offsetof class typedef default deriving in out omit variadic
+syntax keyword c2hsKw enum as const pointer newtype nocode import type get set call unsafe pure fun context nonGNU sizeof alignof define call offsetof class typedef default deriving in out omit variadic foreign finalizer stable
 syntax match c2hsCase "\v\{[a-zA-Z]+\}"
 
 highlight link c2hsTy Type
