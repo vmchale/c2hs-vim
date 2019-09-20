@@ -4,7 +4,7 @@ if exists('b:current_syntax')
     finish
 endif
 
-syntax match c2hsTy "\v`[a-zA-Z0-9\(\) ]*'"
+syntax match c2hsTy "\v`[a-zA-Z0-9\(\) \>\-]*'"
 syntax match c2hsSym "\^"
 syntax match c2hsSym "*"
 syntax match c2hsSym "-"
